@@ -7,3 +7,7 @@ console.log(result)
 let substrEmail = email.substring(4, 14);
 
 console.log(substrEmail);
+
+// template string
+
+console.log(`my email is ${email}`)
