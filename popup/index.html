@@ -3,9 +3,21 @@
 <html>
     <head>
         <title>Popup js</title>
-        <script src="./popup.js"></script>
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="./popup.js" defer></script>
     </head>
     <body>
-        <h1>Pop up JS</h1>
+       <button id="popupBtn">click me</button>
+
+        <div id="wrapper" class="popup-wrapper">
+            <div class="popup">
+                <div id="close" class="popup-close">x</div>
+                <div class="popup-content">
+                    <h2>NINJA SALE!</h2>
+                    <p>50% off all ninja clothing! Don't miss out!'</p>
+                    <a href="#">view clothing</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
