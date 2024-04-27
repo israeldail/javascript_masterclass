@@ -9,3 +9,7 @@ btn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     wrapper.classList.remove('open')
 });
+
+wrapper.addEventListener('click', () => {
+    wrapper.classList.remove('open')
+});
